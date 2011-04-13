@@ -165,8 +165,42 @@ a:hover { color: #036; }
 /**
  * Primary styles
  *
- * Author: 
+ * Author: Chase Southard; OpenLexington et al
  */
+
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#container p {
+	
+	border: #00ff00 1px solid;
+	padding: 1em;
+}
+
+#intro h1 {
+	font-size: 2em;
+	border: #ff0000 1px solid;
+	padding-left: 1em;
+	margin: 0;
+}
+
+#usage h2 {
+	padding: 1em;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+em{
+	font-style: italic;
+}
+
 
 
 
