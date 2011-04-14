@@ -174,23 +174,22 @@ a:hover { color: #036; }
 	margin-left: auto;
 	background-color: #ffffff;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	border: 1px solid #4c4c4c;
 }
 
 #container p {
-	
-	border: #00ff00 1px solid;
 	padding: 1em;
+}
+#intro, #usage, #datasets{
+	margin: 1em;
 }
 
 #intro h1 {
 	font-size: 2em;
-	border: #ff0000 1px solid;
-	padding-left: 1em;
-	margin: 0;
 }
 
 #usage h2 {
-	padding: 1em;
+
 }
 
 body {
@@ -203,7 +202,10 @@ em{
 
 
 
-
+#map_canvas{
+	width: 900px;
+	height: 350px;
+}
 
 
 
